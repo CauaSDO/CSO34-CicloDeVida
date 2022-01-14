@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  CSO34-CicloDeVida
 //
 //  Created by caua on 14/01/22.
@@ -7,38 +7,31 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
-    @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var textField: UITextField!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Tela 1: viewDidLoad")
-        label.text = "Entre com seu nome"
+        print("Tela 2: viewDidLoad")
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("Tela 1: viewWillAppear")
+        print("Tela 2: viewWillAppear")
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print("Tela 1: viewDidAppear")
+        print("Tela 2: viewDidAppear")
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        print("Tela 1: viewWillDisappear")
-        label.text = textField.text
+        print("Tela 2: viewWillDisappear")
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        print("Tela 1: viewDidDisappear")
+        print("Tela 2: viewDidDisappear")
     }
-    
-    
-    
+
 }
